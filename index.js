@@ -43,10 +43,10 @@ client.once(Events.ClientReady, (readyClient) => {
     console.log("========================================");
     console.log("        VANGUARD LSPD LOGGER");
     console.log("========================================");
-    console.log(`Bot      : ${readyClient.user.tag}`);
-    console.log(`Bot ID   : ${readyClient.user.id}`);
-    console.log(`Guild ID : ${config.GUILD_ID}`);
-    console.log(`Guilds   : ${readyClient.guilds.cache.size}`);
+   console.log("Bot      : " + readyClient.user.tag);
+console.log("Bot ID   : " + readyClient.user.id);
+console.log("Guild ID : " + config.GUILD_ID);
+console.log("Guilds   : " + readyClient.guilds.cache.size);
     console.log("Status   : ONLINE");
     console.log("========================================");
 });
