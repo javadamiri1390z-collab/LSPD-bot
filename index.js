@@ -26,7 +26,6 @@ GatewayIntentBits.GuildVoiceStates,
 GatewayIntentBits.GuildModeration
 ],
 
-```
 partials: [
     Partials.Message,
     Partials.Channel,
