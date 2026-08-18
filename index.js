@@ -45,4 +45,4 @@ client.login(process.env.DISCORD_TOKEN)
     .catch((error) => { 
         console.error("❌ Discord login failed:"); 
         console.error(error); 
-    });    بیا 
+    });    
